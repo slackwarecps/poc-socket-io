@@ -1,0 +1,19 @@
+<html>
+<head>
+    <script src="./js/sockjs-0.3.4.js"></script>
+    <script src="./js/stomp.js"></script>
+    <script type="text/javascript">
+        // ...
+        stompClient = Stomp.over(socket);
+
+        stompClient.connect({}, function(frame) {
+            // ...
+            stompClient.subscribe('/topic/pushmessages', function(messageOutput) {
+                showMessageOutput(JSON.parse(messageOutput.body));
+            });
+        });
+        // ...
+    </script>
+</head>
+<!-- ... -->
+</html>

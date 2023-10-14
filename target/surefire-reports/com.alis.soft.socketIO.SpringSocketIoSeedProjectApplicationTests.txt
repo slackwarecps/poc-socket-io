@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.alis.soft.socketIO.SpringSocketIoSeedProjectApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.536 s - in com.alis.soft.socketIO.SpringSocketIoSeedProjectApplicationTests
