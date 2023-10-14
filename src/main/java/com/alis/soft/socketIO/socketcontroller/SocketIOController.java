@@ -78,7 +78,7 @@ public class SocketIOController {
 
 
             socketServer.getBroadcastOperations().sendEvent(message.getTargetUserName(),client, message);
-            socketServer.getBroadcastOperations().sendEvent
+
 
             socketServer.getBroadcastOperations().sendEvent("teste123",client, "Apenas uma ping qualquer :) ");
             /**
